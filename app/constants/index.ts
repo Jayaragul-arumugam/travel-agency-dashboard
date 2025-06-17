@@ -140,3 +140,50 @@ export const RIGHT_CONFETTI = {
   angle: 135,
   origin: { x: 1, y: 1 },
 };
+
+
+export const user = { name: 'Jayaragul'};
+export const dashboardStats = {
+  totalUsers: 12450,
+  usersJoined: { currentMonth:218, lastMonth: 176},
+  totalTrips: 3210,
+  tripsCreated: {currentMonth: 150, lastMonth: 250},
+  userRole: {total: 62, currentMonth: 25, lastMonth: 15},
+}
+export const allTrips = [{
+  id: 1,
+  name: "Beach Adventure",
+  imageUrls: ["/assets/images/sample1.jpg"],
+  itinerary: [{ location: "Varkala" }],
+  tags: ["Adventure", "Culture"],
+  travelStyle: "Solo",
+  estimatedPrice: "₹10,000",
+},
+  {
+    id: 2,
+    name: "Zen Break",
+    imageUrls: ["/assets/images/sample2.jpg"],
+    itinerary: [{ location: "Vagamon" }],
+    tags: ["Relaxation", "Culinary"],
+    travelStyle: "Family",
+    estimatedPrice: "₹10,000",
+  },
+  {
+    id: 3,
+    name: "Banglore",
+    imageUrls: ["/assets/images/sample3.jpg"],
+    itinerary: [{ location: "Japan" }],
+    tags: ["Shopping", "Luxury"],
+    travelStyle: "Couple",
+    estimatedPrice: "₹10,000",
+  },
+  {
+    id: 4,
+    name: "Udaipur",
+    imageUrls: ["/assets/images/sample4.jpg"],
+    itinerary: [{ location: "Croatia" }],
+    tags: ["Historical", "Culture"],
+    travelStyle: "Friends",
+    estimatedPrice: "₹10,000",
+  },
+];
